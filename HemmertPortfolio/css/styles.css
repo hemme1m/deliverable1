@@ -1,7 +1,7 @@
 body {
 	color: #002e63;
 	background-color: #cdcbcd;
-	opacity: 0.85;
+	opacity: 0.5;
 	background-position: center;
 	font-family: Georgia, Times, serif;
 	margin: 0px;
@@ -38,7 +38,7 @@ nav, footer {
 	clear: both;
 	color: #ffffff;
 	background-color: #aeaca8;
-	height: 40px;
+	height: 25px;
 	border: 1px solid #808080;
 }
 
@@ -55,7 +55,7 @@ nav li {
 .houses {
 	float: left;
 	width: 640px;
-	border-right: 1px solid #eeeeee;
+	border-right: 1px solid #808080;
 }
 
 article {
