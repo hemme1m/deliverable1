@@ -81,7 +81,7 @@ nav li {
 	border-right: 1px solid #808080;
 }
 
-fieldset {
+fieldset, form {
 	width: 320px;
 }
 
