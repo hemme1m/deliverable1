@@ -79,8 +79,19 @@ aside {
 	padding: 0px 0px 0px 20px;
 }
 
+.itemsneeded {
+	height: 100px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.crest {
+	padding: 5px;
+}
+
 aside ol {
 	list-style-type: decimal;
+	padding: 5px;
+	line-height: 1.2em;
 }
 
 footer {
