@@ -80,12 +80,13 @@ aside {
 }
 
 .itemsneeded {
-	height: 100px;
+	height: 250px;
 	border-bottom: 1px solid #eeeeee;
 }
 
 .crest {
 	padding: 5px;
+	position: relative;
 }
 
 aside ol {
