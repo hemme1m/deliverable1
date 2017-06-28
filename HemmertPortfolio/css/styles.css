@@ -99,10 +99,12 @@ legend {
 }
 
 .userinput {
+	float: left;
 	border-bottom: 1px solid #808080;
 	margin: 10px;
 	padding-bottom: 10px;
 	width: 260px;
+	clear: left;
 }
 
 .title {
@@ -116,7 +118,6 @@ legend {
 	text-align: right;
 	color: #ffffff;
 	background-color: #1a1a1a;
-	border-bottom: 2px solid #b2b2b2;
 }
 
 article {
