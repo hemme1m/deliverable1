@@ -119,11 +119,12 @@ input[type="text"] {
 	clear: left;
 }
 
-.submit {
+div.submit {
 	float: left;
 	text-align: right;
 	color: #ffffff;
 	background-color: #1a1a1a;
+	padding: 5px;
 }
 
 article {
