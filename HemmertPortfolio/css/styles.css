@@ -121,15 +121,12 @@ input[type="text"] {
 
 .submitBtn {
 	color: #ffffff;
-	width: 100px;
 	background-color: #00244d;
-	text-transform: uppercase;
 	border: 1px solid #808080;
 	border-radius: 5px;
 	float: left;
 	text-align: right;
 	padding: 5px;
-	margin-bottom: 10px;
 }
 
 article {
