@@ -86,6 +86,7 @@ fieldset {
 	border: 1px solid #808080;
 	border-radius: 10px;
 	padding: 20px;
+	margin-bottom: 10px;
 	text-align: right;
 }
 
@@ -112,6 +113,7 @@ legend {
 }
 
 .submit {
+	float: left;
 	text-align: right;
 	color: #ffffff;
 	background-color: #1a1a1a;
