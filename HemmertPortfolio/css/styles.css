@@ -65,7 +65,7 @@ nav li {
 
 .houses {
 	float: left;
-	width: 580px;
+	width: 600px;
 	border-right: 1px solid #808080;
 }
 
@@ -134,7 +134,7 @@ img {
 }
 
 aside {
-	width: 320px;
+	width: 300px;
 	float: left;
 	padding: 0px 0px 0px 20px;
 }
