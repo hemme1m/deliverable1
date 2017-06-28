@@ -1,0 +1,89 @@
+body {
+	color: #002e63;
+	background-color: lightcyan;
+	background-color: hsla(0, 100%, 100%, 0.25);
+	background-position: center;
+	font-family: Georgia, Times, serif;
+	margin: 0px;
+}
+
+.wrapper {
+	width: 940px;
+	margin: 10px auto 10px auto;
+
+}
+
+header {
+	height: 160px;
+	background-color: darkcyan;
+	background-color: hsla(0, 100%, 100%, 0.35);
+}
+
+h1 {
+	/* import a font here--pg 277 */
+	font-size: 32px;
+}
+
+h2 {
+	font-family: Impact, sans-serif;
+	font-size: 24px;
+	color: #002e63;
+}
+
+h3 {
+	font-family: Georgia, Times, serif;
+	color: #002e63;
+	font-size: 18px;
+}
+
+nav, footer {
+	clear: both;
+	color: #ffffff;
+	background-color: #aeaca8;
+	height: 40px;
+}
+
+nav ul {
+	margin: 0px;
+	padding: 5px 0px 5px 20px;
+}
+
+nav li {
+	display: inline;
+	margin-right: 40px;
+}
+
+.houses {
+	float: left;
+	width: 640px;
+	border-right: 1px solid #eeeeee;
+}
+
+article {
+	clear: both;
+	overflow: auto;
+	width: 100%;
+}
+
+.houses img {
+	float: left;
+	padding: 5px;
+	margin: 20px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #777777;
+}
+
+aside {
+	width: 260px;
+	float: left;
+	padding: 0px 0px 0px 20px;
+}
+
+aside ol {
+	list-style-type: decimal;
+}
+
+footer {
+	font-size: 14px;
+	padding: 5px 0px 0px 20px;
+}
