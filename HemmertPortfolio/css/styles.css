@@ -99,8 +99,7 @@ legend {
 }
 
 input[type="text"] {
-	float: left;
-	width: 400px;
+	width: 260px;
 	padding: 2px;
 	outline: none;
 }
