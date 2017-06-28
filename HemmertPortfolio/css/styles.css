@@ -104,14 +104,14 @@ input[type="text"] {
 	outline: none;
 }
 
-.userinput {
+/* .userinput {
 	float: left;
 	border-bottom: 1px solid #808080;
 	margin: 10px;
 	padding-bottom: 10px;
 	width: 260px;
 	clear: left;
-}
+} */
 
 .title {
 	float: left;
@@ -119,7 +119,7 @@ input[type="text"] {
 	clear: left;
 }
 
-input[type="submit"] {
+.submitBtn {
 	color: #ffffff;
 	background-color: #00244d;
 	border: 1px solid #808080;
