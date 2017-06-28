@@ -113,30 +113,11 @@ input[type="submit"] {
 	margin-bottom: 5px;
 }
 
-/* .userinput {
-	float: left;
-	border-bottom: 1px solid #808080;
-	margin: 10px;
-	padding-bottom: 10px;
-	width: 260px;
-	clear: left;
-} */
-
 .title {
 	float: left;
 	width: 100px;
 	clear: left;
 }
-
-/* .submitBtn {
-	color: #ffffff;
-	background-color: #00244d;
-	border: 1px solid #808080;
-	border-radius: 5px;
-	float: left;
-	text-align: right;
-	padding: 5px;
-} */
 
 article {
 	clear: both;
