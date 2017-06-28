@@ -1,6 +1,7 @@
 body {
 	color: #002e63;
-	background-color: lightcyan, hsla(0, 100% 100%, 0.25);
+	background-color: #cdcbcd;
+	opacity: 0.25;
 	background-position: center;
 	font-family: Georgia, Times, serif;
 	margin: 0px;
