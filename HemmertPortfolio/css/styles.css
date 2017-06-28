@@ -104,6 +104,12 @@ input[type="text"] {
 	outline: none;
 }
 
+input[type="submit"] {
+	background-color: #00244d;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
 /* .userinput {
 	float: left;
 	border-bottom: 1px solid #808080;
@@ -153,14 +159,6 @@ aside {
 	height: 250px;
 	border-bottom: 1px solid #808080;
 }
-
-/* .hogwarts img {
-	float: left;
-	padding: 5px;
-	margin: 20px;
-	border-radius: 10px;
-	box-shadow: 5px 5px 5px #777777
-} */
 
 aside ol {
 	list-style-type: decimal;
