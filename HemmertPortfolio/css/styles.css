@@ -119,11 +119,11 @@ input[type="text"] {
 	clear: left;
 }
 
-div.submit {
+.submitbtn {
 	float: left;
 	text-align: right;
+	background-color: #00244d;
 	color: #ffffff;
-	background-color: #1a1a1a;
 	padding: 5px;
 }
 
