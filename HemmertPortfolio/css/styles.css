@@ -81,8 +81,20 @@ nav li {
 	border-right: 1px solid #808080;
 }
 
-fieldset, form {
-	width: 320px;
+fieldset {
+	width: 480px;
+	border: 1px solid #808080;
+	border-radius: 10px;
+	padding: 20px;
+	text-align: right;
+}
+
+legend {
+	background-color: #efefef;
+	border: 1px solid #808080;
+	border-radius: 10px;
+	padding: 10px 20px;
+	text-align: left;
 }
 
 .userinput {
