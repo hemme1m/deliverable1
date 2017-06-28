@@ -15,8 +15,6 @@ body {
 
 header {
 	height: 160px;
-	background-color: darkcyan;
-	background-color: hsla(0, 100%, 100%, 0.35);
 }
 
 h1 {
@@ -41,6 +39,7 @@ nav, footer {
 	color: #ffffff;
 	background-color: #aeaca8;
 	height: 40px;
+	border: 1px solid #808080;
 }
 
 nav ul {
@@ -65,7 +64,7 @@ article {
 	width: 100%;
 }
 
-.houses img {
+img {
 	float: left;
 	padding: 5px;
 	margin: 20px;
@@ -81,16 +80,16 @@ aside {
 
 .itemsneeded {
 	height: 250px;
-	border-bottom: 1px solid #eeeeee;
+	border-bottom: 1px solid #808080;
 }
 
-.hogwarts img {
+/* .hogwarts img {
 	float: left;
 	padding: 5px;
 	margin: 20px;
 	border-radius: 10px;
 	box-shadow: 5px 5px 5px #777777
-}
+} */
 
 aside ol {
 	list-style-type: decimal;
