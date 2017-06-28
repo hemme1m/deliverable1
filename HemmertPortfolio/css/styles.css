@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'museo_sans500';
+    src: url('fonts/MuseoSans_500-webfont.eot');
+    src: url('fonts/MuseoSans_500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/MuseoSans_500-webfont.woff') format('woff'),
+         url('fonts/MuseoSans_500-webfont.ttf') format('truetype'),
+         url('fonts/MuseoSans_500-webfont.svg#museo_sans500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
 	color: #002e63;
 	background-color: #cdcbcd;
@@ -10,7 +21,6 @@ body {
 .wrapper {
 	width: 940px;
 	margin: 10px auto 10px auto;
-
 }
 
 header {
@@ -18,8 +28,9 @@ header {
 }
 
 h1 {
-	/* import a font here--pg 277 */
+	font-family: museo_sans500, Impact, sans-serif;
 	font-size: 32px;
+	font-weight: bold;
 }
 
 h2 {
