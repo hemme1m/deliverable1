@@ -119,11 +119,13 @@ input[type="text"] {
 	clear: left;
 }
 
-input#submit {
+input[type="submit"] {
+	color: #ffffff;
+	background-color: #00244d;
+	border: 1px solid #808080;
+	border-radius: 5px;
 	float: left;
 	text-align: right;
-	background-color: #00244d;
-	color: #ffffff;
 	padding: 5px;
 }
 
