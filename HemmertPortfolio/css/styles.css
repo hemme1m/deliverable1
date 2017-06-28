@@ -63,7 +63,7 @@ nav li {
 	margin-right: 40px;
 }
 
-.houses {
+.houses, .about {
 	float: left;
 	width: 640px;
 	border-right: 1px solid #808080;
