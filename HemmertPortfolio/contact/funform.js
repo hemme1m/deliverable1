@@ -6,10 +6,11 @@ function getUserInfo() {
 		alert("Your name must contain at least 2 characters.");
  // return the user's input in different ways
 	} else {
-    var bigName = funUsername.toUpperCase();
-		alert("Wow, " + funUsername + "! I just want to shout your name--" + bigName + "! " + bigName + "! Sorry, I got excited.")
+    	var bigName = funUsername.toUpperCase();
+		alert("Wow, " + funUsername + "! I just want to shout your name--" + bigName + "! " + bigName + "! Sorry, I got excited.");
 	}
 }
 // when the user clicks the button run the getUserInfo function
+
 var funButton = document.getElementById("funButton");
 funButton.addEventListener("click", getUserInfo, false);
