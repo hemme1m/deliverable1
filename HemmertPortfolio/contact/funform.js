@@ -2,6 +2,7 @@
 function getUserInfo() {
 	var funUsername = document.getElementById("usersName").value;
 //alert user that name has to be at least two characters if 0 or 1 character entered	
+	
 	if (funUsername.length < 2) {
 		alert("Your name must contain at least 2 characters.");
  // return the user's input in different ways
@@ -12,5 +13,5 @@ function getUserInfo() {
 }
 // when the user clicks the button run the getUserInfo function
 
-var funButton = document.getElementById("funButton");
-funButton.addEventListener("click", getUserInfo);
+var funBtn = document.getElementById("funButton");
+funBtn.addEventListener("click", getUserInfo, false);
