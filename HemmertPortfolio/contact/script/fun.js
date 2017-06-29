@@ -17,9 +17,4 @@ function getUserInfo() {
 // when the user clicks the button run the getUserInfo function
 
 var funFormBtn = document.getElementById("funBtn");
-
-if (funFormBtn) {
-	funFormBtn.addEventListener("click", getUserInfo, false);
-}
-
-// funFormBtn.addEventListener("click", getUserInfo, false);
+funFormBtn.addEventListener("click", getUserInfo, false);
