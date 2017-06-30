@@ -11,7 +11,6 @@
 
 body {
 	color: #002e63;
-	background-color: #cdcbcd;
 	background-color: #222222;
 	opacity: 0.75;
 	background-position: center;
@@ -50,10 +49,12 @@ h3 {
 }
 
 nav, footer {
+	float: left;
 	clear: both;
 	color: #fbfbfb;
 	background-color: #4d4d4d;
 	height: 25px;
+	width: 940px;
 	border: 1px solid #808080;
 }
 
@@ -78,9 +79,11 @@ nav a:visited {
 }
 
 .maincontent {
+	background-color: #cdcbcd;
 	float: left;
 	width: 620px;
 	border-right: 1px solid #808080;
+	overflow: auto;
 }
 
 .abouttext {
@@ -147,7 +150,7 @@ aside {
 }
 
 .itemsneeded {
-	height: 250px;
+	height: 208px;
 }
 
 aside ol {
@@ -157,6 +160,7 @@ aside ol {
 }
 
 footer {
+	float: left;
 	font-size: 14px;
 	padding: 5px 0px 0px 20px;
 }
