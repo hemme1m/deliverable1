@@ -157,7 +157,7 @@ aside ol {
 
 footer {
 	float: left;
-	clear: all;
+	clear: both;
 	font-size: 14px;
 	padding: 5px 0px 0px 0px;
 }
