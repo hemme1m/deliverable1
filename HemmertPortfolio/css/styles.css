@@ -132,12 +132,6 @@ input[type="submit"] {
 	clear: left;
 }
 
-article {
-	clear: both;
-	overflow: auto;
-	width: 100%;
-}
-
 img {
 	float: left;
 	padding: 5px;
@@ -158,6 +152,9 @@ aside {
 	height: 208px;
 }
 
+.jsform {
+	min-height: 228px;
+}
 aside ol {
 	list-style-type: decimal;
 	padding: 5px;
