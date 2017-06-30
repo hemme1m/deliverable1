@@ -18,12 +18,6 @@ body {
 	margin: 0px;
 }
 
-.wrapper {
-	background-color: #cdcbcd;
-	width: 940px;
-	margin: 10px auto 10px auto;
-}
-
 header {
 	background-color: #222222;
 	height: 160px;
@@ -50,7 +44,6 @@ h3 {
 
 nav, footer {
 	float: left;
-	clear: both;
 	color: #fbfbfb;
 	background-color: #4d4d4d;
 	height: 25px;
@@ -83,11 +76,10 @@ nav a:visited {
 	float: left;
 	width: 620px;
 	border-right: 1px solid #808080;
-	overflow: auto;
 }
 
 .abouttext {
-	padding: 0px 10px 0px 10px;
+	padding: 0px 10px 22px 10px;
 }
 
 fieldset {
@@ -162,7 +154,12 @@ aside ol {
 }
 
 footer {
-	float: left;
 	font-size: 14px;
-	padding: 5px 0px 0px 20px;
+	padding: 5px 0px 0px 0px;
+}
+
+.wrapper {
+	background-color: #cdcbcd;
+	width: 940px;
+	margin: 10px auto 10px auto;
 }
