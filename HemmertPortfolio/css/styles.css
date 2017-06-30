@@ -16,6 +16,7 @@ body {
 	background-position: center;
 	font-family: Georgia, Times, serif;
 	margin: 0px;
+	position: relative;
 }
 
 header {
