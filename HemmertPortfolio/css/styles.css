@@ -12,6 +12,7 @@
 body {
 	color: #002e63;
 	background-color: #cdcbcd;
+	background-color: #222222;
 	opacity: 0.75;
 	background-position: center;
 	font-family: Georgia, Times, serif;
@@ -19,11 +20,13 @@ body {
 }
 
 .wrapper {
+	background-color: #cdcbcd;
 	width: 940px;
 	margin: 10px auto 10px auto;
 }
 
 header {
+	background-color: #222222;
 	height: 160px;
 }
 
@@ -31,12 +34,13 @@ h1 {
 	font-family: 'museo_sans500', Impact, sans-serif;
 	font-size: 32px;
 	font-weight: bold;
+	color: #fbfbfb;
 }
 
 h2 {
 	font-family: 'museo_sans500', Impact, sans-serif;
 	font-size: 24px;
-	color: #002e63;
+	color: #fbfbfb;
 }
 
 h3 {
@@ -47,7 +51,7 @@ h3 {
 
 nav, footer {
 	clear: both;
-	color: #ffffff;
+	color: #fbfbfb;
 	background-color: #4d4d4d;
 	height: 25px;
 	border: 1px solid #808080;
@@ -63,22 +67,24 @@ nav li {
 	margin-right: 40px;
 }
 
-.houses {
+nav a {
+	color: #fbfbfb;
+	text-decoration: none;
+}
+
+nav a:visited {
+	color: #fbfbfb;
+	text-decoration: none;
+}
+
+.maincontent {
 	float: left;
 	width: 620px;
 	border-right: 1px solid #808080;
 }
 
-.about {
-	float: left;
-	width: 620px;
-	border-right: 1px solid #808080;
-}
-
-.contact {
-	float: left;
-	width: 620px;
-	border-right: 1px solid #808080;
+.abouttext {
+	padding: 0px 10px 0px 10px;
 }
 
 fieldset {
@@ -136,6 +142,7 @@ img {
 aside {
 	width: 280px;
 	float: left;
+	background-color: #cdcbcd;
 	padding: 0px 0px 0px 20px;
 }
 
