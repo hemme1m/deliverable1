@@ -96,7 +96,8 @@ fieldset {
 	border-radius: 10px;
 	background-color: #cdcbcd;
 	padding: 10px;
-	margin: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	text-align: right;
 }
 
