@@ -20,6 +20,7 @@ header {
 	border-radius: 50px;
 	opacity: .7;
 	margin: 10px 10px 10px 0px;
+	transition: opacity 500ms;
 }
 
 #logo:hover {
