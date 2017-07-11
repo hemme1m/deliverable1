@@ -72,12 +72,12 @@ nav a:visited {
 	color: #4D2100;
 }
 
-.mainContent a:hover {
-	color: #E66300;
-}
-
 .mainContent a:visited {
 	color: #4D2100;
+}
+
+.mainContent a:hover {
+	color: #E66300;
 }
 
 p.copyright {
