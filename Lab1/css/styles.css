@@ -47,6 +47,10 @@ nav a {
 	text-decoration: none;
 }
 
+nav a:hover {
+	color: #E66300;
+}
+
 nav a:visited {
 	text-decoration: none;
 }
