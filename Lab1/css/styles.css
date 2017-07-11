@@ -1,0 +1,81 @@
+body {
+	font-family: "Vollkorn", Times, serif;
+	color: #4D2100;
+	background-color: #FFFFE3;
+}
+
+header {
+	background-color: #BDEDFF;
+	height: 95px;
+	min-width: 480px;
+}
+
+#logo {
+	float: right;
+	width: 75px;
+	height: 75px;
+	border-color: white;
+	border-style: inset;
+	border-radius: 50px;
+	opacity: .7;
+	margin: 10px 10px 10px 0px;
+}
+
+#logo:hover {
+	opacity: 1;
+}
+
+nav ul {
+	font-family: "Lato";
+	font-weight: bold;
+	padding: 5px 0px 5px 0px;
+	float: left;
+	margin: 50px 0px 0px 25px;
+}
+
+nav li {
+	display: inline;
+	margin-right: 20px;
+	padding-right: 7px;
+}
+
+nav a {
+	color: #4D2100;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+nav a:visited {
+	text-decoration: none;
+}
+
+.wrapper {
+	min-width: 480px;
+	background-color: #FFFFE3;
+}
+
+.mainContent {
+	margin-left: 10px;
+}
+
+.mainContent ul {
+	margin-left: -20px;
+}
+
+p.copyright {
+	position: relative;
+	font-size: 0.89em;
+	text-align: right;
+	margin-right: 10px;
+	padding-top: 8px;
+}
+
+/* .socialMedia {
+	Gotta get on social media first :)
+} */
+
+footer {
+	height: 35px;
+	min-width: 480px;
+	background-color: #FFA763;
+}
