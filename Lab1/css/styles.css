@@ -2,6 +2,7 @@ body {
 	font-family: "Vollkorn", Times, serif;
 	color: #4D2100;
 	background-color: #FFFFE3;
+	margin: 0px;
 }
 
 header {
@@ -55,7 +56,7 @@ nav a:visited {
 }
 
 .mainContent {
-	margin-left: 10px;
+	margin: 0px 10px;
 }
 
 .mainContent ul {
